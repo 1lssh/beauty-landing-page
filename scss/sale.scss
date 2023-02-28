@@ -1,0 +1,41 @@
+.sale {
+	background-image: url(../source/Rectangle2.png);
+	background-size: cover;
+
+
+
+	&__wrapper {
+		height: 600px;
+		display: flex;
+		align-items: center;
+
+		@media screen and (max-width: 966px) {
+			justify-content: center;
+		}
+	}
+
+	&__offer {
+		max-width: 308px;
+
+	}
+
+	&__title {
+		color: #FFFFFF;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 56px;
+		margin-bottom: 50px;
+	}
+
+	&__subtitle {
+		color: #FFFFFF;
+		font-weight: 200;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 50px;
+	}
+
+	&__button {
+		display: inline-block;
+	}
+}
